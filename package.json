@@ -1,0 +1,37 @@
+{
+  "name": "extreme_sports",
+  "version": "1.0.0",
+  "description": "Website about extreme sports - skateboarding, bmx, fmx, snowboarding.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css",
+    "watch-css": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dawid-majewski-pl/extreme_sports.git"
+  },
+  "keywords": [
+    "extreme",
+    "sports",
+    "skate",
+    "skateboard",
+    "skateboarding",
+    "bmx",
+    "fmx",
+    "freestyle",
+    "motocross",
+    "motox",
+    "snowboard",
+    "snowboarding"
+  ],
+  "author": "Dawid Majewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dawid-majewski-pl/extreme_sports/issues"
+  },
+  "homepage": "https://github.com/dawid-majewski-pl/extreme_sports#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
