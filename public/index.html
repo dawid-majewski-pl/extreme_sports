@@ -7,27 +7,31 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
     <title>Extreme Sports</title>
 </head>
-<body>
+<body class="font-content text-gray-800">
     <main>
         <section id="website-cover">
             <header>
-                <h1>Extreme Sports</h1>
+                <h1 class="font-label text-center text-6xl py-8 px-2 uppercase">Extreme Sports</h1>
             </header>
-            <figure>
-                <blockquote cite="https://www.azquotes.com/quote/1358383">
-                    <p>In life, you're along for the ride either way. You might as well make it fun!</p>
-                </blockquote>
-                <figcaption>Travis Pastrana</figcaption>
+            <figure class="flex justify-center bg-zinc-200 px-12 py-4">
+                <div>
+                    <blockquote class="inline-block width-s" cite="https://www.azquotes.com/quote/1358383">
+                        <p class="italic">In life, you're along for the ride either way. You might as well make it fun!</p>
+                    </blockquote>
+                    <figcaption class="text-right">Travis Pastrana</figcaption>
+                </div>
             </figure>
-            <nav>
-                <ul>
-                    <li><a href="#">Skateboarding</a></li>
-                    <li><a href="#">Snowboarding</a></li>
-                    <li><a href="#">BMX</a></li>
-                    <li><a href="#">Freestyle Motocross</a></li>
-                </ul>
-            </nav>
-            <img src="img/skateboarder.webp" alt="Photo of skateboarder.">
+            <div class="grid grid-cols-nav items-center pt-8 px-8">
+                <nav class="h-full grid p-0 h-fit">
+                    <ul class="flex flex-wrap width-full">
+                        <li class="font-label text-viewport uppercase pr-4 w-full hover:bg-zinc-200"><a href="#">Skateboarding</a></li>
+                        <li class="font-label text-viewport uppercase pr-4 w-full hover:bg-zinc-200"><a href="#">Snowboarding</a></li>
+                        <li class="font-label text-viewport uppercase pr-4 w-full hover:bg-zinc-200"><a href="#">BMX</a></li>
+                        <li class="font-label text-viewport uppercase pr-4 w-full hover:bg-zinc-200"><a href="#">Freestyle Motocross</a></li>
+                    </ul>
+                </nav>
+                <img src="img/skateboarder.webp" alt="Photo of skateboarder.">
+            </div>
         </section>
     </main>
 </body>

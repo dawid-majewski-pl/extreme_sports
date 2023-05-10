@@ -4,8 +4,18 @@ module.exports = {
     './public/**/*.{html,js}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        content: ['Archivo'],
+        label: ['Archivo Black']
+      },
+      fontSize: {
+        'viewport': '3vw',
+      },
+      gridTemplateColumns: {
+        'nav': '1fr 2fr',
+      }
+    },
   },
   plugins: [],
 }
-
