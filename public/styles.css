@@ -565,9 +565,14 @@ video {
   justify-content: center;
 }
 
-.bg-zinc-200{
+.bg-gunmetal-main{
   --tw-bg-opacity: 1;
-  background-color: rgb(228 228 231 / var(--tw-bg-opacity));
+  background-color: rgb(31 43 55 / var(--tw-bg-opacity));
+}
+
+.bg-orange-main{
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 194 46 / var(--tw-bg-opacity));
 }
 
 .p-0{
@@ -632,6 +637,10 @@ video {
   font-size: 3vw;
 }
 
+.font-bold{
+  font-weight: 700;
+}
+
 .uppercase{
   text-transform: uppercase;
 }
@@ -645,7 +654,12 @@ video {
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
-.hover\:bg-zinc-200:hover{
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:bg-orange-main:hover{
   --tw-bg-opacity: 1;
-  background-color: rgb(228 228 231 / var(--tw-bg-opacity));
+  background-color: rgb(249 194 46 / var(--tw-bg-opacity));
 }
