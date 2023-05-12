@@ -540,10 +540,6 @@ video {
   right: 0px;
 }
 
-.m-4{
-  margin: 1rem;
-}
-
 .my-4{
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -656,10 +652,6 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.pb-4{
-  padding-bottom: 1rem;
 }
 
 .pl-4{
