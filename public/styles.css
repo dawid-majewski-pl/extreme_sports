@@ -606,6 +606,16 @@ video {
   gap: 1rem;
 }
 
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-blue-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+}
+
 .bg-gunmetal-main{
   --tw-bg-opacity: 1;
   background-color: rgb(31 43 55 / var(--tw-bg-opacity));
@@ -616,44 +626,9 @@ video {
   background-color: rgb(249 194 46 / var(--tw-bg-opacity));
 }
 
-.bg-blue-200{
+.bg-white{
   --tw-bg-opacity: 1;
-  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
-}
-
-.bg-blue-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-}
-
-.bg-blue-300{
-  --tw-bg-opacity: 1;
-  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
-}
-
-.bg-blue-800{
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
-}
-
-.bg-blue-900{
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
-}
-
-.bg-black{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-blue-950{
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 37 84 / var(--tw-bg-opacity));
-}
-
-.bg-blue-400{
-  --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50{
@@ -698,8 +673,16 @@ video {
   padding-bottom: 2rem;
 }
 
+.pb-8{
+  padding-bottom: 2rem;
+}
+
 .pl-4{
   padding-left: 1rem;
+}
+
+.pl-6{
+  padding-left: 1.5rem;
 }
 
 .pr-4{
@@ -710,32 +693,12 @@ video {
   padding-right: 2rem;
 }
 
-.pt-8{
-  padding-top: 2rem;
-}
-
-.pl-8{
-  padding-left: 2rem;
-}
-
-.pl-6{
-  padding-left: 1.5rem;
-}
-
-.pt-4{
-  padding-top: 1rem;
-}
-
 .pt-10{
   padding-top: 2.5rem;
 }
 
-.pb-4{
-  padding-bottom: 1rem;
-}
-
-.pb-8{
-  padding-bottom: 2rem;
+.pt-8{
+  padding-top: 2rem;
 }
 
 .text-center{
@@ -807,11 +770,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-black{
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .hover\:bg-orange-main:hover{
