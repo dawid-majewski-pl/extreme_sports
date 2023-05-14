@@ -11,7 +11,9 @@ module.exports = {
       },
       fontSize: {
         'viewport': '3vw',
-        'top': '32px'
+        'top-sm': '32px',
+        'top-md': '48px',
+        'section-md': '36px'
       },
       gridTemplateColumns: {
         'nav': '1fr 2fr',
