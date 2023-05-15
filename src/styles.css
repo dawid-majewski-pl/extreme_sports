@@ -4,6 +4,45 @@
 @tailwind components;
 @tailwind utilities;
 
+.card {
+    @apply img-scale w-11/12 relative rounded-xl overflow-hidden w-full;
+}
+
+.category-container {
+    @apply pt-10 pb-8;
+}
+
+.article-container {
+    @apply grid gap-4 justify-items-center my-4 md:grid-cols-2 lg:grid-cols-3 lg:max-w-7xl lg:mx-auto lg:py-8 px-4 md:px-12;
+}
+
+.category-header {
+    @apply absolute right-0 bg-orange-main text-3xl md:text-section-md text-gunmetal-main text-right px-8 py-2 md:py-4 uppercase tracking-wide font-bold lg:static lg:text-center lg:w-1/2 lg:mx-auto;
+}
+
+.section-header {
+    @apply w-2/3 bg-gunmetal-main text-3xl md:text-section-md text-orange-main px-8 py-2 md:py-4 uppercase tracking-wide font-bold lg:mx-auto lg:text-center lg:w-1/2;
+}
+
+.card-header {
+    @apply text-white text-2xl uppercase font-bold;
+}
+
+.description-container {
+    @apply absolute bottom-0 p-4;
+}
+
+.readtime-container {
+    @apply flex justify-center items-center absolute top-0 right-0 m-4 text-white bg-black bg-opacity-50 w-12 h-12 rounded-full text-xs
+}
+
+.nav-default {
+    @apply font-label text-viewport uppercase pr-4 w-full hover:bg-orange-main duration-300;
+}
+
+.nav-lg {
+    @apply lg:text-2xl lg:text-center lg:pr-0 lg:py-2 lg:border-gunmetal-main;
+}
 
 .img-scale:hover > a > img {
     transition: all .2s ease-in;
