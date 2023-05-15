@@ -41,7 +41,7 @@
 }
 
 .nav-lg {
-    @apply lg:text-2xl lg:text-center lg:pr-0 lg:py-2 lg:border-gunmetal-main;
+    @apply lg:text-xl lg:text-center lg:pr-0 lg:py-2 lg:border-gunmetal-main lg:hover:text-orange-main lg:hover:bg-gunmetal-main;
 }
 
 .img-scale:hover > a > img {
