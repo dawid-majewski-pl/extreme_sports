@@ -540,6 +540,10 @@ video {
   display: grid;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-fit{
   height: -moz-fit-content;
   height: fit-content;
@@ -880,6 +884,12 @@ video {
   opacity: 0.9;
 }
 
+@media (min-width: 640px){
+  .sm\:hidden{
+    display: none;
+  }
+}
+
 @media (min-width: 768px){
   .md\:mt-24{
     margin-top: 6rem;
@@ -922,6 +932,10 @@ video {
 
   .lg\:mt-4{
     margin-top: 1rem;
+  }
+
+  .lg\:block{
+    display: block;
   }
 
   .lg\:hidden{
