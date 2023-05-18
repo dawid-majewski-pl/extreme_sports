@@ -12,7 +12,7 @@ module.exports = {
       fontSize: {
         'viewport': '3vw',
         'top-sm': '16px',
-        'top-md': '48px',
+        'top-md': '40px',
         'section-md': '36px'
       },
       gridTemplateColumns: {
@@ -35,6 +35,9 @@ module.exports = {
       },
       animation: {
         'open-menu': 'open-menu 0.5s ease-in-out forwards',
+      },
+      margin: {
+        'small': '1px',
       }
     },
   },

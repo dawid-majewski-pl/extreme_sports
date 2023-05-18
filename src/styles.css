@@ -49,3 +49,17 @@
     transform: scale(1.02);
     opacity: 0.9;
 }
+
+.hamburger_a {
+    @apply text-top-sm md:text-3xl lg:text-5xl bg-orange-main cursor-pointer top-0 absolute md:fixed right-0 py-0 md:py-1 px-4 lg:px-6 z-10 mx-4 my-2 md:m-4 rounded-md hover:bg-gunmetal-main hover:text-orange-main duration-300;
+}
+
+.toggle-btn {
+    @apply
+        [&>div::before]:translate-y-0
+        [&>div::before]:rotate-45
+        [&>div::after]:translate-y-0
+        [&>div::after]:-rotate-45
+        [&>div]:bg-transparent
+        [&>div]:rotate-[360deg]
+}
