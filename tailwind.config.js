@@ -11,7 +11,7 @@ module.exports = {
       },
       fontSize: {
         'viewport': '3vw',
-        'top-sm': '24px',
+        'top-sm': '16px',
         'top-md': '48px',
         'section-md': '36px'
       },
