@@ -80,7 +80,39 @@
                         <li class="nav-default nav-lg lg:border-r-2 lg:block hidden"><a href="#mtx">MTX</a></li>
                     </ul>
                 </nav>
-                <img src="img/skateboarder.webp" alt="Photo of skateboarder.">
+                <div id="slider" class=" w-full overflow-hidden">
+                    <div id="slides" class="flex w-[400%] relative">
+                        <input type="radio" name="radio-btn" id="radio1" class="hidden">
+                        <input type="radio" name="radio-btn" id="radio2" class="hidden">
+                        <input type="radio" name="radio-btn" id="radio3" class="hidden">
+                        <input type="radio" name="radio-btn" id="radio4" class="hidden">
+                        <div id="slide" class="h-full">
+                            <img src="img/slider/skateboarder.jpg" alt="Photo of skateboarder.">
+                        </div>
+                        <div id="slide">
+                            <img src="img/slider/snowboarder.jpg" alt="Photo of snowboarder.">
+                        </div>
+                        <div id="slide">
+                            <img src="img/slider/biker.jpg" alt="Photo of skateboarder.">
+                        </div>
+                        <div id="slide">
+                            <img src="img/slider/rider.jpg" alt="Photo of skateboarder.">
+                        </div>
+                        <div id="slide">
+                            <div id="auto-btn1"></div>
+                            <div id="auto-btn2"></div>
+                            <div id="auto-btn3"></div>
+                            <div id="auto-btn4"></div>
+                        </div>
+                        <div id="navigation-manual" class="absolute flex justify-center left-0 bottom-2 w-[25%]">
+                            <label for="radio1" id="manual-btn" class="m-2 border-2 border-gunmetal-main p-1 md:p-2 rounded-full cursor-pointer duration-300 hover:bg-orange-main"></label>
+                            <label for="radio2" id="manual-btn" class="m-2 border-2 border-gunmetal-main p-1 md:p-2 rounded-full cursor-pointer duration-300 hover:bg-orange-main"></label>
+                            <label for="radio3" id="manual-btn" class="m-2 border-2 border-gunmetal-main p-1 md:p-2 rounded-full cursor-pointer duration-300 hover:bg-orange-main"></label>
+                            <label for="radio4" id="manual-btn" class="m-2 border-2 border-gunmetal-main p-1 md:p-2 rounded-full cursor-pointer duration-300 hover:bg-orange-main"></label>
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
         </section>
         <section class="category-container" id="skateboarding">
