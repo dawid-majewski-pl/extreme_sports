@@ -36,6 +36,5 @@ radioBtn3.addEventListener('click', () => {
 })
 
 radioBtn4.addEventListener('click', () => {
-    console.log('container')
     content.innerHTML = '<img src="img/slider/rider.jpg" alt="Photo of rider.">'
 })
