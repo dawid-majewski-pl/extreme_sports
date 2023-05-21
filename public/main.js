@@ -35,3 +35,16 @@ radioBtn3.addEventListener('click', () => {
 radioBtn4.addEventListener('click', () => {
     content.innerHTML = '<img src="img/slider/rider.jpg" alt="Photo of rider.">'
 })
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('category-header-show');
+        } else {
+            entry.target.classList.remove('category-header-show');
+        }
+    });
+})
+
+const hiddenElements = document.querySelectorAll('.category-header');
+hiddenElements.forEach((el) => observer.observe(el));

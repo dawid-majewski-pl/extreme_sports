@@ -17,9 +17,12 @@
 }
 
 .category-header {
-    @apply absolute right-0 bg-orange-main text-3xl md:text-section-md text-gunmetal-main text-right px-8 py-2 md:py-4 uppercase tracking-wide font-bold lg:static lg:text-center lg:w-1/2 lg:mx-auto;
+    @apply absolute opacity-0 right-20 bg-orange-main text-3xl md:text-section-md text-gunmetal-main text-right px-8 py-2 md:py-4 uppercase tracking-wide font-bold lg:static lg:text-center lg:w-1/2 lg:mx-auto transition-all duration-[0.8s];
 }
 
+.category-header-show {
+    @apply right-0 opacity-100
+}
 .section-header {
     @apply w-2/3 bg-gunmetal-main text-3xl md:text-section-md text-orange-main px-8 py-2 md:py-4 uppercase tracking-wide font-bold lg:mx-auto lg:text-center lg:w-1/2;
 }
