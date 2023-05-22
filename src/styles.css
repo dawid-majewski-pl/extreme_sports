@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,400;0,700;1,400&display=swap');
-
+@import url('styles_special.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -65,17 +65,4 @@
         [&>div::after]:-rotate-45
         [&>div]:bg-transparent
         [&>div]:rotate-[360deg]
-}
-
-.button:hover > .icon {
-    background-color: rgb(96, 165, 250);
-    color:white;
-}
-
-.button:hover > .label {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(96, 165, 250);
-    color:white;
 }

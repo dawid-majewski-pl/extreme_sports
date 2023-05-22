@@ -1,0 +1,33 @@
+@media screen and (max-width: 767px) {
+.triangle-orange {
+    position: absolute;
+    top: 0;
+    left: -60px;
+    border-bottom: 52px solid #f9c22e;
+    border-left: 60px solid transparent;
+};
+}
+
+@media (min-width: 768px) {
+    .triangle-orange {
+        position: absolute;
+        top: 8px;
+        left: -68px;
+        transform: scale(1.3);
+        border-bottom: 52px solid #f9c22e;
+        border-left: 60px solid transparent;
+    };
+  }
+
+.button:hover > .icon {
+    background-color: rgb(96, 165, 250);
+    color:white;
+}
+
+.button:hover > .label {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(96, 165, 250);
+    color:white;
+}
