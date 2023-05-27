@@ -23,8 +23,9 @@
 .category-header-show {
     @apply right-0 opacity-100
 }
+
 .section-header {
-    @apply w-[260px] bg-gunmetal-main text-3xl md:text-section-md text-orange-main px-8 py-2 md:py-4 uppercase tracking-wide font-bold lg:mx-auto lg:text-center lg:w-1/2 relative;
+    @apply w-[260px] bg-gunmetal-main text-3xl md:text-section-md text-orange-main px-8 py-2 md:py-4 uppercase tracking-wide font-bold lg:mx-auto lg:text-center lg:w-1/2;
 }
 
 .card-header {
@@ -55,6 +56,10 @@
     @apply m-2 border-2 border-gunmetal-main p-1 md:p-2 rounded-full cursor-pointer duration-300 hover:bg-orange-main;
 }
 
+.footer {
+    @apply bg-orange-main text-gunmetal-main p-4 text-center;
+}
+
 .social_box {
     @apply px-2 flex items-center items-center;
 }
@@ -71,6 +76,39 @@
 
 .hamburger_a {
     @apply text-top-sm md:text-3xl lg:text-5xl bg-orange-main cursor-pointer top-0 absolute md:fixed right-0 py-0 md:py-1 px-4 lg:px-6 z-10 mx-4 my-2 md:m-4 rounded-md hover:bg-gunmetal-main hover:text-orange-main duration-300;
+}
+
+.hamburger {
+    @apply bg-gunmetal-main md:bg-orange-main
+    w-8
+    h-1
+    rounded
+    absolute
+    right-0
+    top-3
+    mt-small
+    transition-all
+    duration-500
+    before:content-['']
+    before:bg-gunmetal-main before:md:bg-orange-main
+    before:w-8
+    before:h-1
+    before:rounded
+    before:absolute
+    before:transition-all
+    before:duration-500
+    before:-translate-x-4
+    before:-translate-y-2 
+    after:content-['']
+    after:bg-gunmetal-main after:md:bg-orange-main
+    after:w-8
+    after:h-1
+    after:rounded
+    after:absolute
+    after:transition-all
+    after:duration-500
+    after:-translate-x-4
+    after:translate-y-2;
 }
 
 .toggle-btn {
