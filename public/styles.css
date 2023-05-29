@@ -34,6 +34,11 @@
     left: 260px;
     border-bottom: 68px solid #1f2b37;
     border-right: 60px solid transparent;
+  }
+}
+
+@media (min-width: 1024px) {
+  .triangle-gunmetal {
     display: none;
   }
 }
