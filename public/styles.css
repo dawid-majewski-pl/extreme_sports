@@ -34,6 +34,7 @@
     left: 260px;
     border-bottom: 68px solid #1f2b37;
     border-right: 60px solid transparent;
+    display: none;
   }
 }
 
@@ -819,10 +820,6 @@ video {
   padding: 0px;
 }
 
-.p-4{
-  padding: 1rem;
-}
-
 .px-12{
   padding-left: 3rem;
   padding-right: 3rem;
@@ -909,11 +906,6 @@ video {
 .text-gray-800{
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
-}
-
-.text-gunmetal-main{
-  --tw-text-opacity: 1;
-  color: rgb(31 43 55 / var(--tw-text-opacity));
 }
 
 .text-white{

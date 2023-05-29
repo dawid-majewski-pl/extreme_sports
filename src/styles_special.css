@@ -35,6 +35,12 @@
     }
   }
 
+  @media (min-width: 768px) {
+    .triangle-gunmetal {
+        display: none;
+    }
+  }
+
 .button:hover > .icon {
     background-color: rgb(96, 165, 250);
     color:white;
