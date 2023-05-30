@@ -15,9 +15,9 @@
     <main>
         <section id="website-cover">
             <header class="flex md:block justify-between items-center bg-orange-main fixed md:static w-full z-30 border-b-2 border-gunmetal-main">
-                <h1 class="font-label md:text-center text-top-sm md:text-top-md py-2 md:py-5 px-8 uppercase">Extreme Sports</h1>
+                <h1 class="font-label md:text-center text-top-sm md:text-top-md py-2 md:py-5 px-8 uppercase"><a href="#website-cover" title="Extreme Sports - Go to the top of website.">Extreme Sports</a></h1>
                 <div class="mr-8"> 
-                    <button id="hamburger-button" class="text-xl cursor-pointer relative z-30 w-8 h-8 md:fixed md:top-8 md:left-12 md:bg-gunmetal-main md:rounded md:h-[1.9rem]">
+                    <button id="hamburger-button" class="text-xl cursor-pointer relative z-30 w-8 h-8 md:fixed md:top-8 md:left-12 md:bg-gunmetal-main md:rounded md:h-[1.9rem]" title="Open/Close menu.">
                         <div class="hamburger">
                         </div>
                     </button>
@@ -26,12 +26,12 @@
             <section id="mobile-menu" class="fixed top-0 bg-gunmetal-main opacity-barely-visible text-white w-full text-xl flex-col justify-content-center origin-top animate-open-menu hidden z-20">
                 <nav class="flex flex-col min-h-screen items-center py-16 md:py-8">
                     <ul>
-                        <a href="#website-cover"><li class="link">Home</li></a>
-                        <a href="#skateboarding"><li class="link">Skateboarding</li></a>
-                        <a href="#snowboarding"><li class="link">Snowboarding</li></a>
-                        <a href="#bmx"><li class="link">BMX</li></a>
-                        <a href="#mtx"><li class="link">MTX</li></a>
-                        <a href="#contact"><li class="link">Contact</li></a>
+                        <a href="#website-cover" title="Back to the top of website."><li class="link">Home</li></a>
+                        <a href="#skateboarding" title="Go to Skateboarding section."><li class="link">Skateboarding</li></a>
+                        <a href="#snowboarding" title="Go to Snowboarding section."><li class="link">Snowboarding</li></a>
+                        <a href="#bmx"><li class="link" title="Go to BMX section.">BMX</li></a>
+                        <a href="#mtx"><li class="link" title="Go to Freestyle Motocross section.">MTX</li></a>
+                        <a href="#contact" title="Go to Contact section with social links."><li class="link">Contact</li></a>
                     </ul>
                 </nav>
             </section>
@@ -46,11 +46,11 @@
             <div class="grid grid-cols-nav items-center pt-8 px-8 md:px-12 lg:max-w-6xl lg:mx-auto lg:grid-cols-1 lg:my-4">
                 <nav class="h-full grid p-0 h-fit">
                     <ul class="flex flex-wrap width-full lg:flex-nowrap">
-                        <a href="#skateboarding" class="nav-default nav-lg lg:border-r-2 lg:border-l-2"><li >Skateboarding</li></a>
-                        <a href="#snowboarding" class="nav-default nav-lg lg:border-r-2"><li>Snowboarding</li></a>
-                        <a href="#bmx" class="nav-default nav-lg lg:border-r-2"><li>BMX</li></a>
-                        <a href="#mtx" class="nav-default lg:hidden"><li>Freestyle Motocross</li></a>
-                        <a href="#mtx" class="nav-default nav-lg lg:border-r-2 lg:block hidden"><li>MTX</li></a>
+                        <a href="#skateboarding" class="nav-default nav-lg lg:border-r-2 lg:border-l-2" title="Go to Skateboarding section."><li >Skateboarding</li></a>
+                        <a href="#snowboarding" class="nav-default nav-lg lg:border-r-2" title="Go to Snowboarding section."><li>Snowboarding</li></a>
+                        <a href="#bmx" class="nav-default nav-lg lg:border-r-2" title="Go to BMX section."><li>BMX</li></a>
+                        <a href="#mtx" class="nav-default lg:hidden" title="Go to Freestyle Motocross section."><li>Freestyle Motocross</li></a>
+                        <a href="#mtx" class="nav-default nav-lg lg:border-r-2 lg:block hidden" title="Go to Freestyle Motocross section."><li>MTX</li></a>
                     </ul>
                 </nav>
                 <div id="slider" class=" w-full">
@@ -69,10 +69,10 @@
                             <div id="auto-btn4"></div>
                         </div>
                         <div id="navigation-manual" class="absolute flex justify-center left-0 bottom-2 w-full">
-                            <label for="radio1" id="manual-btn" class="radio"></label>
-                            <label for="radio2" id="manual-btn" class="radio"></label>
-                            <label for="radio3" id="manual-btn" class="radio"></label>
-                            <label for="radio4" id="manual-btn" class="radio"></label>
+                            <label for="radio1" id="manual-btn" class="radio" title="Change to photo of skateboarder."></label>
+                            <label for="radio2" id="manual-btn" class="radio" title="Change to photo of snowboarder."></label>
+                            <label for="radio3" id="manual-btn" class="radio" title="Change to photo of BMX rider."></label>
+                            <label for="radio4" id="manual-btn" class="radio" title="Change to photo of FMX rider."></label>
                         </div>
                     </div>
                     
@@ -520,25 +520,25 @@
             </section>
         </section>
         <footer class="footer" id="contact">
-            <h2 class="text-3xl md:text-section-md md:py-2 font-bold">Extreme sports</h2>
+            <h2 class="text-3xl md:text-section-md md:py-2 font-bold uppercase">Extreme sports</h2>
             <!-- Wrapper -->
             <div id="wrapper" class="flex justify-center py-2">
                 <!-- Button -->
-                <a href="https://www.facebook.com" target="_blank">
+                <a href="https://www.facebook.com" target="_blank" title="Facebook profile.">
                     <div class="social_box button">
                         <div class="social_btn icon"><img src="img/icons/facebook.svg" class="h-8 z-10"></div>
                         <span class="text-xs -ml-7 rounded-e-full w-[100px] bg-white h-14 hidden label z-0">Facebook</span>
                     </div>
                 </a>
                 <!-- Button -->
-                <a href="https://www.github.com" target="_blank">
+                <a href="https://www.github.com" target="_blank" title="GitHub profile.">
                     <div class="social_box button">
                         <div class="social_btn icon"><img src="img/icons/github.svg" class="h-8 z-10"></div>
                         <span class="text-xs -ml-7 rounded-e-full w-[100px] bg-white h-14 w-14 hidden label z-0">Github</span>
                     </div>
                 </a>
                 <!-- Button -->
-                <a href="https://www.gmail.com" target="_blank">
+                <a href="https://www.gmail.com" target="_blank" title="Gmail adress.">
                     <div class="social_box button">
                         <div class="social_btn icon"><img src="img/icons/gmail.svg" class="h-8 z-10"></div>
                         <span class="text-xs -ml-7 rounded-e-full w-[100px] bg-white h-14 w-14 hidden label z-0">Gmail</span>
