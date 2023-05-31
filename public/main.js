@@ -21,19 +21,19 @@ const radioBtn4 = document.querySelector('#radio4')
 const content = document.querySelector('#container')
 
 radioBtn1.addEventListener('click', () => {
-    content.innerHTML = '<img src="img/slider/skateboarder.jpg" alt="Photo of skateboarder.">'
+    content.innerHTML = '<img src="img/slider/skateboarder.jpg" alt="Photo of skateboarder." title="Photo of a Skateboarder.">'
 })
 
 radioBtn2.addEventListener('click', () => {
-    content.innerHTML = '<img src="img/slider/snowboarder.jpg" alt="Photo of snowboarder.">'
+    content.innerHTML = '<img src="img/slider/snowboarder.jpg" alt="Photo of snowboarder." title="Photo of a Snowboarder.">'
 })
 
 radioBtn3.addEventListener('click', () => {
-    content.innerHTML = '<img src="img/slider/biker.jpg" alt="Photo of biker.">'
+    content.innerHTML = '<img src="img/slider/biker.jpg" alt="Photo of biker." title="Photo of a Biker.">'
 })
 
 radioBtn4.addEventListener('click', () => {
-    content.innerHTML = '<img src="img/slider/rider.jpg" alt="Photo of rider.">'
+    content.innerHTML = '<img src="img/slider/rider.jpg" alt="Photo of rider." title="Photo of a FMX Rider.">'
 })
 
 const observer = new IntersectionObserver((entries) => {
