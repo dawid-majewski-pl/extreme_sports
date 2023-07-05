@@ -41,7 +41,7 @@
 }
 
 .nav-default {
-    @apply font-label text-viewport uppercase pr-4 w-full hover:bg-orange-main duration-300;
+    @apply font-label text-viewport uppercase w-full hover:bg-orange-main duration-300;
 }
 
 .nav-lg {
@@ -98,7 +98,7 @@
     before:transition-all
     before:duration-500
     before:-translate-x-4
-    before:-translate-y-2 
+    before:-translate-y-2
     after:content-['']
     after:bg-gunmetal-main after:md:bg-orange-main
     after:w-8

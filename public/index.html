@@ -16,41 +16,41 @@
         <section id="website-cover">
             <header class="flex md:block justify-between items-center bg-orange-main fixed md:static w-full z-30 border-b-2 border-gunmetal-main">
                 <h1 class="font-label md:text-center text-top-sm md:text-top-md py-2 md:py-5 px-8 uppercase"><a href="#website-cover" title="Extreme Sports - Go to the top of website.">Extreme Sports</a></h1>
-                <div class="mr-8"> 
+                <div class="mr-8">
                     <button id="hamburger-button" class="text-xl cursor-pointer relative z-30 w-8 h-8 md:fixed md:top-8 md:left-12 md:bg-gunmetal-main md:rounded md:h-[1.9rem]" title="Open/Close menu.">
                         <div class="hamburger">
                         </div>
                     </button>
                 </div>
             </header>
-            <section id="mobile-menu" class="fixed top-0 bg-gunmetal-main opacity-barely-visible text-white w-full text-xl flex-col justify-content-center origin-top animate-open-menu hidden z-20">
+            <div id="mobile-menu" class="fixed top-0 bg-gunmetal-main opacity-barely-visible text-white w-full text-xl flex-col justify-content-center origin-top animate-open-menu hidden z-20">
                 <nav class="flex flex-col min-h-screen items-center py-16 md:py-8">
                     <ul>
-                        <a href="#website-cover" title="Back to the top of website."><li class="link">Home</li></a>
-                        <a href="#skateboarding" title="Go to Skateboarding section."><li class="link">Skateboarding</li></a>
-                        <a href="#snowboarding" title="Go to Snowboarding section."><li class="link">Snowboarding</li></a>
-                        <a href="#bmx"><li class="link" title="Go to BMX section.">BMX</li></a>
-                        <a href="#mtx"><li class="link" title="Go to Freestyle Motocross section.">MTX</li></a>
-                        <a href="#contact" title="Go to Contact section with social links."><li class="link">Contact</li></a>
+                        <li><a href="#website-cover" title="Back to the top of website." class="w-full"><p class="link">Home</p></a></li>
+                        <li><a href="#skateboarding" title="Go to Skateboarding section." class="w-full"><p class="link">Skateboarding</p></a></li>
+                        <li><a href="#snowboarding" title="Go to Snowboarding section." class="w-full"><p class="link">Snowboarding</p></a></li>
+                        <li><a href="#bmx" title="Go to BMX section." class="w-full"><p class="link">BMX</p></a></li>
+                        <li><a href="#mtx" title="Go to Freestyle Motocross section." class="w-full"><p class="link">MTX</p></a></li>
+                        <li><a href="#contact" title="Go to Contact section with social links." class="w-full"><p class="link">Contact</p></a></li>
                     </ul>
                 </nav>
-            </section>
+            </div>
             <figure class="flex justify-center bg-gunmetal-main px-12 pt-14 pb-4 md:py-4">
                 <div>
                     <blockquote class="inline-block width-s" cite="https://www.azquotes.com/quote/1358383">
                         <p class="text-white text-center italic md:text-xl">In life, you're along for the ride either way. You might as well make it fun!</p>
+                        <p class="text-white text-right font-bold md:text-xl">Travis Pastrana</p>
                     </blockquote>
-                    <figcaption class="text-white text-right font-bold md:text-xl">Travis Pastrana</figcaption>
                 </div>
             </figure>
             <div class="grid grid-cols-nav items-center pt-8 px-8 md:px-12 lg:max-w-6xl lg:mx-auto lg:grid-cols-1 lg:my-4">
-                <nav class="h-full grid p-0 h-fit">
+                <nav class="h-full grid p-0">
                     <ul class="flex flex-wrap width-full lg:flex-nowrap">
-                        <a href="#skateboarding" class="nav-default nav-lg lg:border-r-2 lg:border-l-2" title="Go to Skateboarding section."><li >Skateboarding</li></a>
-                        <a href="#snowboarding" class="nav-default nav-lg lg:border-r-2" title="Go to Snowboarding section."><li>Snowboarding</li></a>
-                        <a href="#bmx" class="nav-default nav-lg lg:border-r-2" title="Go to BMX section."><li>BMX</li></a>
-                        <a href="#mtx" class="nav-default lg:hidden" title="Go to Freestyle Motocross section."><li>Freestyle Motocross</li></a>
-                        <a href="#mtx" class="nav-default nav-lg lg:border-r-2 lg:block hidden" title="Go to Freestyle Motocross section."><li>MTX</li></a>
+                        <li class="nav-default nav-lg lg:border-r-2 lg:border-l-2"><a href="#skateboarding" title="Go to Skateboarding section." class="h-full inline-block pr-4"><p>Skateboarding</p></a></li>
+                        <li class="nav-default nav-lg lg:border-r-2"><a href="#snowboarding" title="Go to Snowboarding section." class="h-full inline-block pr-4"><p>Snowboarding</p></a></li>
+                        <li class="nav-default nav-lg lg:border-r-2"><a href="#bmx" title="Go to BMX section." class="h-full inline-block pr-4"><p>BMX</p></a></li>
+                        <li class="nav-default lg:hidden"><a href="#mtx" title="Go to Freestyle Motocross section." class="h-full inline-block pr-4"><p>Freestyle Motocross</p></a></li>
+                        <li class="nav-default nav-lg lg:border-r-2 lg:block hidden"><a href="#mtx" title="Go to Freestyle Motocross section." class="h-full inline-block pr-4"><p>MTX</p></a></li>
                     </ul>
                 </nav>
                 <div id="slider" class=" w-full">
@@ -61,7 +61,7 @@
                         <input type="radio" name="radio-btn" id="radio4" class="hidden">
                         <div id="container">
                             <img src="img/slider/skateboarder.jpg" alt="Photo of skateboarder." title="Photo of a Skateboarder.">
-                        </div>                        
+                        </div>
                         <div>
                             <div id="auto-btn1"></div>
                             <div id="auto-btn2"></div>
@@ -69,13 +69,12 @@
                             <div id="auto-btn4"></div>
                         </div>
                         <div id="navigation-manual" class="absolute flex justify-center left-0 bottom-2 w-full">
-                            <label for="radio1" id="manual-btn" class="radio" title="Change to photo of skateboarder."></label>
-                            <label for="radio2" id="manual-btn" class="radio" title="Change to photo of snowboarder."></label>
-                            <label for="radio3" id="manual-btn" class="radio" title="Change to photo of BMX rider."></label>
-                            <label for="radio4" id="manual-btn" class="radio" title="Change to photo of FMX rider."></label>
+                            <label for="radio1" class="radio" title="Change to photo of skateboarder."></label>
+                            <label for="radio2" class="radio" title="Change to photo of snowboarder."></label>
+                            <label for="radio3" class="radio" title="Change to photo of BMX rider."></label>
+                            <label for="radio4" class="radio" title="Change to photo of FMX rider."></label>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </section>
@@ -526,22 +525,22 @@
                 <!-- Button -->
                 <a href="https://www.facebook.com" target="_blank" title="Facebook profile.">
                     <div class="social_box button">
-                        <div class="social_btn icon"><img src="img/icons/facebook.svg" class="h-8 z-10"></div>
+                        <div class="social_btn icon"><img src="img/icons/facebook.svg" alt="Facebook icon." class="h-8 z-10"></div>
                         <span class="text-xs -ml-7 rounded-e-full w-[100px] bg-white h-14 hidden label z-0">Facebook</span>
                     </div>
                 </a>
                 <!-- Button -->
                 <a href="https://www.github.com" target="_blank" title="GitHub profile.">
                     <div class="social_box button">
-                        <div class="social_btn icon"><img src="img/icons/github.svg" class="h-8 z-10"></div>
-                        <span class="text-xs -ml-7 rounded-e-full w-[100px] bg-white h-14 w-14 hidden label z-0">Github</span>
+                        <div class="social_btn icon"><img src="img/icons/github.svg" alt="Github icon." class="h-8 z-10"></div>
+                        <span class="text-xs -ml-7 rounded-e-full w-[100px] bg-white h-14 hidden label z-0">Github</span>
                     </div>
                 </a>
                 <!-- Button -->
                 <a href="https://www.gmail.com" target="_blank" title="Gmail adress.">
                     <div class="social_box button">
-                        <div class="social_btn icon"><img src="img/icons/gmail.svg" class="h-8 z-10"></div>
-                        <span class="text-xs -ml-7 rounded-e-full w-[100px] bg-white h-14 w-14 hidden label z-0">Gmail</span>
+                        <div class="social_btn icon"><img src="img/icons/gmail.svg" alt="Gmail icon." class="h-8 z-10"></div>
+                        <span class="text-xs -ml-7 rounded-e-full w-[100px] bg-white h-14 hidden label z-0">Gmail</span>
                     </div>
                 </a>
             </div>
